@@ -19,6 +19,7 @@ This time, it's Aframe! In this excercise I'm trying to solve some problems whic
 Common Problems faced:
 
 1.) OBJ models do not show up
+
 2.) Placing custom models is a pain when manually changing values, unable to find a proper frame of reference
 
 ## A3
@@ -26,9 +27,13 @@ Common Problems faced:
 Other problems faced elsewhere:
 
 1.) How to traverse from one VR page to another?
+
 2.) I implemented 1.) but its not working! I click on it but nothing happens!
+
 3.) How to create a 360 degree panorama in aframe?
+
 4.) Can I add cool effects to my entities?
+
 5.) I'm working with a marker in the real world, but the track keeps getting lost! That is, the 3D object shows up but never stays for more than a few seconds, or does not show up at all!
 
 # Solutions:
@@ -55,6 +60,6 @@ Protip for **1**: Use a combination of **A2 1 and 2**, that is insert the object
 
 3.) Use a sphere <a-sphere> </a-sphere> texture with an equirectangular image projection, typically created with a number of images (projection of spherical coordinates onto a horizontal and vertical coordinates )
 
-4.) <a-animations> help!
+4.) <a-animations> </a-animations> help!
 
 5.) Decide on your application, are you moving the marker or the camera? https://aframe.io/blog/arjs/#move-the-camera-or-the-marker. Fix your objects as child entities to it afterwards!
