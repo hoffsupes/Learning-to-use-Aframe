@@ -58,7 +58,7 @@ Protip for **1**: Use a combination of **A2 1 and 2**, that is insert the object
 
 2.) You need a *cursor*, aframe relies on something akin to *raytracing* called *raycasting*. The (very) principal idea here is that one shoots a ray from the user's cursor and determines the first point in the world that it hits and marks that point as being visible by the user. Since the cursor is also over it, that point is considered as being hovered on. Mouse clicks can now be detected! So declare a cursor and make sure that the cursor *is pointed at the portal/link* when you click. This is what an end user would also do when using the app on their phone!
 
-3.) Use a sphere a-sphere, texture with an equirectangular image projection, typically created with a number of images (projection of spherical coordinates onto a horizontal and vertical coordinates )
+3.) Use a-sphere, texture with an equirectangular image projection, typically created with a number of images (projection of spherical coordinates onto a horizontal and vertical coordinates )
 
 4.) a-animations help!
 
